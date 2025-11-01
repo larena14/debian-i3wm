@@ -160,7 +160,9 @@ bindsym $mod+Shift+Return exec google-chrome-stable
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+space exec --no-startup-id dmenu_run
+bindsym $mod+space exec --no-startup-id i3-dmenu-desktop
+# bindsym $mod+space exec --no-startup-id dmenu_run
+
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
