@@ -4,7 +4,7 @@ sudo apt update &&  sudo apt upgrade -y
 sudo apt install -y \
 	lightdm i3 \
 	nano wget gpg curl git pulseaudio pavucontrol apt-transport-https pasystray \
-        xfce4-settings \
+        xfce4-settings xfce4-power-manager \
 	zip unzip p7zip-full \
 	gnome-disk-utility kio-admin lxpolkit dolphin \
 	alacritty tmux zsh tealdeer
@@ -132,7 +132,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id lxpolkit
 
 # disable sleep (only manual mode)
-exec --no-startup-id xset -dpms
+# exec --no-startup-id xset -dpms
 
 # Use pactl to adjust volume in PulseAudio.
 
