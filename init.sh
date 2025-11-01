@@ -23,7 +23,10 @@ tee ~/.config/sublime-text/Packages/User/Preferences.sublime-settings > /dev/nul
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
-        "remember_workspace": false
+        "remember_workspace": false,
+        "open_files_in_new_window": "always",
+        "hot_exit": false,
+        "remember_open_files": false
 }
 EOF
 
