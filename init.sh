@@ -131,6 +131,8 @@ exec --no-startup-id nm-applet
 # start polkit for dolphin auth 
 exec --no-startup-id lxpolkit
 
+# disable sleep (only manual mode)
+exec --no-startup-id xset -dpms
 
 # Use pactl to adjust volume in PulseAudio.
 
