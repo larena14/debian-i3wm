@@ -260,8 +260,8 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
-# sleep
-bindsym $mod+Shift+s exec "i3-nagbar -t warning -m 'You pressed the sleep shortcut. Do you really want sleep?' -B 'Yes, sleep' 'systemctl sleep'
+# suspend
+bindsym $mod+Shift+s exec "i3-nagbar -t warning -m 'You pressed the suspend shortcut. Do you really want suspend?' -B 'Yes, suspend' 'systemctl suspend'
 
 # reboot
 bindsym $mod+Shift+b exec "i3-nagbar -t warning -m 'You pressed the reboot shortcut. Do you really want reboot?' -B 'Yes, reboot' 'systemctl reboot'
