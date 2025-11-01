@@ -25,7 +25,6 @@ tee ~/.config/sublime-text/Packages/User/Preferences.sublime-settings > /dev/nul
 {
         "remember_workspace": false,
         "open_files_in_new_window": "always",
-        "hot_exit": false,
         "remember_open_files": false
 }
 EOF
