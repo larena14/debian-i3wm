@@ -128,6 +128,10 @@ exec --no-startup-id nm-applet
 # pasystray (comment because otherwise two icons appear)
 # exec --no-startup-id pasystray --notify=all
 
+# set primary display (if there are two)
+# exec --no-startup-id xrandr --output HDMI-A-3 --primary
+# exec --no-startup-id xrandr --output HDMI-A-3 --auto --right-of HDMI-A-2 &
+
 # start polkit for dolphin auth 
 exec --no-startup-id lxpolkit
 
@@ -309,6 +313,10 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# workspace 1 output HDMI-A-3
+# workspace 7 output HDMI-A-2
+
 EOF
 
 # set NetworkManager
