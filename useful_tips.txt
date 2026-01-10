@@ -1,1 +1,2 @@
 - If virsh can't start the default net, disable dnsmasq service
+- To install sddm, the no-install-recommends is suggested else it will pull lots of plasma depencies: sudo apt install --no-install-recommends -y sddm
