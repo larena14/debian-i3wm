@@ -37,6 +37,9 @@ exec --no-startup-id nm-applet
 # start caffeine-indicator
 exec --no-startup-id caffeine-indicator
 
+# start flameshot
+exec --no-startup-id flameshot
+
 # pasystray (comment because otherwise two icons appear)
 # exec --no-startup-id pasystray --notify=all
 
