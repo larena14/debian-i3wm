@@ -42,6 +42,9 @@ exec --no-startup-id caffeine-indicator
 # start flameshot
 exec --no-startup-id flameshot
 
+# start clipman
+exec --no-startup-id xfce4-clipman &
+
 # pasystray (comment because otherwise two icons appear)
 # exec --no-startup-id pasystray --notify=all
 
