@@ -3,7 +3,7 @@
 sudo apt install --no-install-recommends -y sddm
 sudo apt install -y i3 nano wget gpg curl git pulseaudio pavucontrol apt-transport-https pasystray \
                     zip unzip p7zip-full alacritty tmux zsh tealdeer network-manager network-manager-applet nm-connection-editor blueman pulseaudio-module-bluetooth \
-                    arandr nemo evince caffeine grub-customizer
+                    arandr nemo evince caffeine grub-customizer flameshot
 
 # start and enable sddm
 
