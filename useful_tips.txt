@@ -1,5 +1,6 @@
-- If virsh can't start the default net, disable dnsmasq service
-- To install sddm, the no-install-recommends is suggested else it will pull lots of plasma depencies: sudo apt install --no-install-recommends -y sddm
+- To install sddm, the no-install-recommends is suggested else it will pull lots of plasma depencies: 
+  -- sudo apt install --no-install-recommends -y sddm
+
 - To install xrdp: 
   -- sudo apt install xrdp -y
   -- sudo systemctl start xrdp
@@ -7,4 +8,17 @@
   -- echo "exec i3" > ~/.xsession
   -- chmod +x  ~/.xsession
   -- sudo systemctl restart xrdp
+
 - To install remmina: sudo apt install remmina remmina-plugin-rdp remmina-plugin-secret remmina-plugin-spice
+
+- ohmyzsh minimal configuration:
+  -- ZSH_THEME='lukerandall'
+  -- plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+  -- source ~./zshrc
+
+- To set git username and email
+  -- git config --global user.name FIRST_NAME LAST_NAME
+  -- git config --global user.email MY_NAME@example.com
+
+- If virsh can't start the default net, disable dnsmasq service
+- If systemd-networkd previous managed them, comment the interface line in /etc/network/interfaces
