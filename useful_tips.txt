@@ -34,3 +34,4 @@
   -- If the connection is unmanaged, try to force NetworkManager to manage it
     --- sudo nano /etc/NetworkManager/NetworkManager.conf
     --- set: [ifupdown] managed=true
+    --- sudo systemctl restart NetworkManager
