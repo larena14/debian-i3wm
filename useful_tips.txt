@@ -27,4 +27,10 @@
 
 - If virsh can't start the default net, disable dnsmasq service
 - If systemd-networkd previous managed them, comment the interface line in /etc/network/interfaces
-
+- If Tethering USB not works:
+  -- Try disable ModemManager:
+    --- sudo systemctl stop ModemManager
+    --- sudo systemctl disable ModemManager
+  -- If the connection is unmanaged, try to force NetworkManager to manage it
+    --- sudo nano /etc/NetworkManager/NetworkManager.conf
+    --- set: [ifupdown] managed=true
