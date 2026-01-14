@@ -17,7 +17,7 @@
   -- source ~./zshrc
 
 - To set git username and email
-  -- git config --global user.name FIRST_NAME LAST_NAME
+  -- git config --global user.name "FIRST_NAME LAST_NAME"
   -- git config --global user.email MY_NAME@example.com
 
 - If virsh can't start the default net, disable dnsmasq service
