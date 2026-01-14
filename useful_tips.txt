@@ -20,5 +20,11 @@
   -- git config --global user.name "FIRST_NAME LAST_NAME"
   -- git config --global user.email MY_NAME@example.com
 
+- If emoji not showing:
+  -- sudo apt update && sudo apt install fonts-noto-color-emoji
+  -- sudo fc-cache -fv
+  -- sudo reboot
+
 - If virsh can't start the default net, disable dnsmasq service
 - If systemd-networkd previous managed them, comment the interface line in /etc/network/interfaces
+
